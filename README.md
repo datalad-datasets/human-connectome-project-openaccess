@@ -40,7 +40,7 @@ will retrieve data without further authentication.
 
 ## Dataset structure
 
-Each HCP subject directory in this dataset is a DataLad subdataset. The
+Each ``HCP1200/`` subject directory in this dataset is a DataLad subdataset. The
 command `datalad get -n <subject-id>` clones this subdataset and allows to
 access this subjects release notes (subdirectory `release-notes`). Within each
 subject's subdataset, one DataLad subdataset exists for each additional
