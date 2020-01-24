@@ -1,6 +1,6 @@
 # Get data from the Human Connectome Project Open Access dataset with DataLad
 
-This dataset enables data retrieval with DataLad from the
+This dataset enables data retrieval with DataLad (0.12.2 or later) from the
 [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/) for users
 that accepted the WU-Minn HCP Consortium Open Access Data Use Terms and obtained
 valid AWS credentials via [db.humanconnectome.org](http://db.humanconnectome.org).
