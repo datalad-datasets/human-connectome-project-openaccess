@@ -4477,7 +4477,7 @@
 	path = HCP1200/675661
 	url = ./HCP1200/675661
 	branch = master
-	datalad-id = 383ef60e-2217-11ea-8f71-002590496000
+	datalad-id = b1970672-4058-11ea-9452-0025904abcb0
 [submodule "677766"]
 	path = HCP1200/677766
 	url = ./HCP1200/677766
@@ -4502,12 +4502,12 @@
 	path = HCP1200/680250
 	url = ./HCP1200/680250
 	branch = master
-	datalad-id = 4ad27aa8-2207-11ea-879e-0025904abcb0
+	datalad-id = 77c803e4-40dd-11ea-b38a-0025904abcb0
 [submodule "680452"]
 	path = HCP1200/680452
 	url = ./HCP1200/680452
 	branch = master
-	datalad-id = 54ccaac0-2206-11ea-b442-0025904abcb0
+	datalad-id = b1aa5902-4058-11ea-ad1b-0025904abcb0
 [submodule "680957"]
 	path = HCP1200/680957
 	url = ./HCP1200/680957
@@ -4517,22 +4517,22 @@
 	path = HCP1200/683256
 	url = ./HCP1200/683256
 	branch = master
-	datalad-id = 24faf0c2-2201-11ea-8c43-0025904abcb0
+	datalad-id = 77e322b4-40dd-11ea-bef2-0025904abcb0
 [submodule "685058"]
 	path = HCP1200/685058
 	url = ./HCP1200/685058
 	branch = master
-	datalad-id = a14b66dc-21fe-11ea-9df3-0025904abcb0
+	datalad-id = b207644e-4058-11ea-9c5a-0025904abcb0
 [submodule "686969"]
 	path = HCP1200/686969
 	url = ./HCP1200/686969
 	branch = master
-	datalad-id = 1d17ddca-21fc-11ea-a702-002590496000
+	datalad-id = 77efe300-40dd-11ea-a039-0025904abcb0
 [submodule "687163"]
 	path = HCP1200/687163
 	url = ./HCP1200/687163
 	branch = master
-	datalad-id = 522c2cb2-21f9-11ea-ba43-002590496000
+	datalad-id = b1f82c04-4058-11ea-bcf8-0025904abcb0
 [submodule "688569"]
 	path = HCP1200/688569
 	url = ./HCP1200/688569
