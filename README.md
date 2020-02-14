@@ -80,7 +80,7 @@ but not actual *content* of the (sometimes large) data files.
 
 After cloning a dataset, you can retrieve file contents by running
 ```
-datalad get <path/to/directory/or/file>`
+datalad get <path/to/directory/or/file>
 ```
 This command will trigger a download of the files, directories, or subdatasets you have specified.
 
