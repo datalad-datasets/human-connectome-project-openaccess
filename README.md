@@ -37,8 +37,8 @@ and obtain valid AWS credentials:
 You will be asked to supply your AWS credentials the first time you use `datalad get`
 to retrieve file content of your choice from
 the [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/). You
-should only need to authenticate once, and all subsequent `datalad get` commands
-will retrieve data without further authentication.
+should only need to provide credentials once, and all subsequent `datalad get` commands
+will retrieve data without asking them again.
 
 ## Dataset structure
 
@@ -80,7 +80,7 @@ but not actual *content* of the (sometimes large) data files.
 
 After cloning a dataset, you can retrieve file contents by running
 ```
-datalad get <path/to/directory/or/file>`
+datalad get <path/to/directory/or/file>
 ```
 This command will trigger a download of the files, directories, or subdatasets you have specified.
 
