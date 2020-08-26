@@ -40,6 +40,32 @@ the [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/). Yo
 should only need to provide credentials once, and all subsequent `datalad get` commands
 will retrieve data without asking them again.
 
+Note that a subset of files is not available via the S3 bucket and is instead
+retrieved from the ConnectomeDB database.
+This concerns the following files:
+
+- HCP1200/{205199,200614}/MNINonlinear/Results/rfMRI_REST1_LR/rfMRI_REST1_LR.nii.gz
+- HCP1200/199251/MNINonlinear/Results/rfMRI_REST2_RL/rfMRI_REST2_RL.nii.gz
+- HCP1200/{150928,198451}/MNINonlinear/Results/rfMRI_REST2_RL/rfMRI_REST2_RL_hp2000_clean.nii.gz
+- HCP1200/{150928,208226}/MNINonlinear/Results/rfMRI_REST1_RL/rfMRI_REST1_RL_hp2000_clean.nii.gz
+- HCP1200/{150928,202820,213421}/MNINonlinear/Results/rfMRI_REST2_LR/rfMRI_REST2_LR_hp2000_clean.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_WM_LR/tfMRI_WM_LR.nii.gz
+- HCP1200/{150928,668361}/MNINonlinear/Results/tfMRI_WM_RL/tfMRI_WM_RL.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_GAMBLING_RL/tfMRI_GAMBLING_RL.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_MOTOR_LR/tfMRI_MOTOR_LR.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_MOTOR_RL/tfMRI_MOTOR_RL.nii.gz
+- HCP1200/{150928,214524}/MNINonlinear/Results/tfMRI_LANGUAGE_LR/tfMRI_LANGUAGE_LR.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_LANGUAGE_RL/tfMRI_LANGUAGE_RL.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_SOCIAL_LR/tfMRI_SOCIAL_LR.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_SOCIAL_RL/tfMRI_SOCIAL_RL.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_EMOTION_LR/tfMRI_EMOTION_LR.nii.gz
+- HCP1200/150928/MNINonlinear/Results/tfMRI_EMOTION_RL/tfMRI_EMOTION_RL.nii.gz
+
+
+When retrieving the files listed above, you will be asked to supply your ConnectomeDB credentials
+(user name and password) instead of your AWS credentials.
+As with AWS credentials, you will only need to supply these credentials once.
+
 ## Dataset structure
 
 Each ``HCP1200/`` subject directory in this dataset is a DataLad subdataset. The
