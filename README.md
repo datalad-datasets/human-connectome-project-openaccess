@@ -9,7 +9,7 @@ valid AWS credentials via [db.humanconnectome.org](http://db.humanconnectome.org
 
 ## Human Connectome Project
 
-The Human [Connectome Project (HCP)](http://www.humanconnectomeproject.org/about/)
+The Human [Connectome Project (HCP)](https://www.humanconnectome.org/study/hcp-young-adult)
 aims to construct a map of the complete structural and functional neural
 connections in vivo within and across individuals.
 
