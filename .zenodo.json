@@ -1,0 +1,37 @@
+{
+  "creators": [
+    {
+      "name": "Hanke, Michael",
+      "affiliation": "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Jülich, Jülich, Germany and Institute of Systems Neuroscience, Medical Faculty, Heinrich Heine University Düsseldorf, Düsseldorf, Germany",
+      "orcid": "0000-0001-6398-6370"
+    },
+    {
+      "affiliation": "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Jülich, Jülich, Germany",
+      "name": "Waite, Laura K.",
+      "orcid": "0000-0003-2213-7465"
+    },
+    {
+      "affiliation": "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Jülich, Jülich, Germany",
+      "name": "Wagner, Adina Svenja",
+      "orcid": "0000-0003-2917-3450"
+    },
+    {
+      "affiliation": "Dartmouth College, Hanover, NH, United States",
+      "name": "Halchenko, Yaroslav O.",
+      "orcid": "0000-0003-3456-2493"
+    },
+    {
+     "name": "Kadelka, Tobias",
+     "affiliation": "Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7), Research Centre Jülich, Jülich, Germany",
+     "orcid": "0000-0002-0152-3490"
+     }
+  ],
+  "keywords": [
+    "data management",
+    "data distribution",
+    "version control"
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "dataset"
+}
